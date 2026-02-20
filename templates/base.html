@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" />
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}" />
-    <title>Agiliwonder Estate Management | {% block %} {% endblock %}</title>
+    <title>
+      Agiliwonder Estate Management | {% block Welcome %} {% endblock %}
+    </title>
   </head>
   <body>
     {% include 'partials/_topbar.html' %} {% include 'partials/_navbar.html' %}
